@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 -----------------
 # PPO Implementation for CartPole Environment
 
