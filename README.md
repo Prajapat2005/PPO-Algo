@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 -----------------
 # PPO Implementation for CartPole Environment
@@ -148,3 +149,6 @@ Episode: 1, Loss: 0.534
 Episode: 2, Loss: 0.421
 ...
 ```
+=======
+This code implements the PPO algorithm with a simple actor-critic neural network architecture using TensorFlow. The actor network outputs the logits of the policy distribution, while the critic network estimates the state value. The loss function combines the policy gradient loss and value loss with a PPO-style clipped objective. The training loop collects trajectories from the environment, computes advantages, and performs PPO updates for a specified number of epochs. Finally, the code trains the agent on the CartPole environment from OpenAI Gym for a specified number of episodes.
+>>>>>>> 2aaf054656aaf668fae8081c6293064c9dec89be
